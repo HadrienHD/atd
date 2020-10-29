@@ -1,0 +1,134 @@
+
+/***hadrien**/
+
+@font-face {
+    font-family: 'Some Time Later';
+    src: url('SomeTimeLater.otf') format('otf'),
+}
+
+p, label {
+    font-family: 'Some Time Later';
+}
+
+/****titres****/
+
+h1 {
+    font-size: 20px !important;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/***body*****/
+
+body {
+    background-color:rgb(255, 255, 255);
+    margin:0px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+/*** header***/
+
+header {
+    background-color:rgba(255, 255, 255, 0);
+}
+
+header p {
+    text-align: center;
+    color:black;
+    font-size: 3em;
+}
+
+/** menu**/
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    padding: 5px;
+}
+
+a:hover {
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+
+nav {
+   background-color:#5e5e5e; 
+   float: left;
+   max-width: 100%;
+   min-width: 100%;
+}
+
+nav ul {
+    background-color: #5e5e5e;
+    float: left;
+    padding: 0px;
+    max-width: 100%;
+    text-align: center;
+    min-width: 100%;
+}
+
+nav li {
+    display: inline;
+    margin:20px;
+    font-family: 'Staatliches', cursive;
+}
+
+/*****conteneur**********/
+
+
+.comentairs {
+    background: darkmagenta;
+}
+
+h1 {
+    font-size: 10px;
+    font-family: 'Staatliches', cursive;
+}
+
+#conteneur {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*****footer***/
+
+footer {
+    color: black;
+}
+
+#mention {
+    float: right;
+    clear: right;
+}
+
+/***div salut***/
+
+.salut {
+    text-align: center;
+    color:black;
+    font-size: 3em;
+    height: 300px;
+    background: crimson;
+    height: auto;
+}
+
+/***asides***/
+
+.un {
+    background-color: rgb(155, 155, 155);
+    float: right;
+    font-size: 0.4em;
+    width: 580px;
+    border: 10px solid black;
+}
+
+.deux {
+    float : right;
+    background-color: black;
+    color:grey;
+}
